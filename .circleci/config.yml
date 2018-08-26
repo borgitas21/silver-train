@@ -18,7 +18,7 @@ jobs:
             - ./node_modules
       - run:
           name: Install angularcli
-          command: npm install -g @angular/cli@latest
+          command: sudo npm install -g @angular/cli@latest
       - run:
           name: test
           command: ng test --progress=false --code-coverage --watch=false
