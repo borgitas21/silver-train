@@ -8,8 +8,7 @@ node_js:
 
 branches:
   only:
-    - gh-pages
-    - /.*/
+    - master
 
 before_script:
   - npm install -g @angular/cli
