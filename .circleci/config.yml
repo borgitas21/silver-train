@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/silver-train
     docker:
-      - image: circleci/node:8.2.0
+      - image: circleci/node:8.11
     steps:
       - checkout
       - restore_cache:
