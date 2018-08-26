@@ -14,6 +14,6 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - ng build --prod --aot
   - ng test --watch=false --code-coverage
   - ng e2e
+  #- ng build --prod --aot
