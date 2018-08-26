@@ -4,6 +4,8 @@ jobs:
     working_directory: ~/silver-train
     docker:
       - image: circleci/node:8.11
+        environment:
+          CHROME_BIN: "/usr/bin/google-chrome"
     steps:
       - checkout
       - restore_cache:
