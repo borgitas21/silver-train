@@ -1,0 +1,6 @@
+{
+  "root": "dist/silver-train",
+  "routes": {
+    "/**": "index.html"
+  }
+}
