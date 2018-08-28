@@ -14,14 +14,14 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - ng build --prod --aot
+  - ng build --prod
   - ng test --watch=false --code-coverage
   - ng e2e
 
-deploy:
-  - provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    keep-history: true
-    on:
-      branch: master
+#deploy:
+#  - provider: pages
+#    skip-cleanup: true
+#    github-token: $GITHUB_TOKEN
+#    keep-history: true
+#    on:
+#      branch: master
