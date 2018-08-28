@@ -1,3 +1,9 @@
+[![CircleCI](https://circleci.com/gh/borgitas21/silver-train/tree/master.svg?style=svg)](https://circleci.com/gh/borgitas21/silver-train/tree/master)
+
+[![Build Status](https://travis-ci.org/borgitas21/silver-train.svg?branch=master)](https://travis-ci.org/borgitas21/silver-train)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/0f81ec9212e2bfe8f2ba/maintainability)](https://codeclimate.com/github/borgitas21/silver-train/maintainability)
+
 # SilverTrain
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
