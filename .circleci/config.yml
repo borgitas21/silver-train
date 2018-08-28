@@ -25,9 +25,6 @@ jobs:
           name: test
           command: ng test --progress=false --code-coverage --watch=false
       - run:
-          name: e2e
-          command: ng e2e
-      - run:
           name: build
           command: ng build --prod
       - store_artifacts:
