@@ -32,8 +32,10 @@ jobs:
           command: ng build --prod
 
       - deploy:
-          name: Deploy Master to Firebase
+          name: Deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
+            elif [ "${CIRCLE_BRANCH}" == "production" ]; then
+              git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP.git master
             fi
