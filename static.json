@@ -1,5 +1,5 @@
 {
-  "root": "dist/silver-train",
+  "root": "dist/silver-train/",
   "routes": {
     "/**": "index.html"
   }
